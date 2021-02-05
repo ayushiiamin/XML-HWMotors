@@ -1,0 +1,1 @@
+//booking/person[@drivingLicenseNumber="2335426"]/phoneNumber/text()

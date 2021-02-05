@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name = "bookingIDtype">
+        <xs:restriction base = "xs:positiveInteger">
+            <xs:totalDigits value = "5"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name = "drivingLicenseNumbertype">
+        <xs:restriction base = "xs:positiveInteger">
+           <xs:totalDigits value = "7"/> 
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="hwmotors">
+        <xs:complexType>
+            <xs:sequence>
+
+                    <xs:element name="booking" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+
+                                <xs:element name ="vehicle">
+                                    <xs:complexType>
+                                        <xs:sequence>
+
+                                            <xs:element name ="manufactureName" type="xs:string"/> 
+                                            <xs:element name = "modelName" type="xs:string" />
+
+                                            <xs:element name ="hireDate">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+
+                                                        <xs:element name = "startDate" type="xs:date"/>
+                                                        <xs:element name = "returnDate" type="xs:date"/>
+
+                                                    </xs:sequence>
+                                                </xs:complexType> 
+                                            </xs:element>
+
+                                            <xs:element name ="location">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+
+                                                        <xs:element name = "startLocation" type="xs:string"/>
+                                                        <xs:element name = "endLocation" type="xs:string"/>
+
+                                                    </xs:sequence>
+                                                </xs:complexType> 
+                                            </xs:element>
+
+                                            <xs:element name = "hireCategory" type="xs:string"/>
+                                            <xs:element name = "gearType" type="xs:string"/>
+                                            <xs:element name = "noOfSeats" type="xs:positiveInteger"/>
+                                            <xs:element name = "fixedHirePrice" type="xs:decimal"/>
+
+                                        </xs:sequence>
+
+                                        <xs:attribute name = "plateNumber" type="xs:string" use ="required"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                
+                                 <xs:element name ="person">
+                                    <xs:complexType>
+                                        <xs:sequence>
+
+                                            <xs:element name ="name">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+
+                                                        <xs:element name = "firstName" type="xs:string"/>
+                                                        <xs:element name = "lastName" type="xs:string"/>
+
+                                                    </xs:sequence>
+                                                </xs:complexType> 
+                                            </xs:element>
+
+                                            <xs:element name = "dob" type="xs:date"/>
+                                            <xs:element name = "homeAddress" type="xs:string"/>
+                                            <xs:element name = "phoneNumber" type = "xs:string" minOccurs="1" maxOccurs="3"/>
+                                            <xs:element name = "email" type = "xs:string" minOccurs="0" maxOccurs="1"/>
+
+                                        </xs:sequence>
+
+                                        <xs:attribute name = "drivingLicenseNumber" type="drivingLicenseNumbertype" use ="required"/>
+                                    </xs:complexType>
+                                 </xs:element>
+
+                            </xs:sequence>
+                            <xs:attribute name = "bookingID" type="bookingIDtype" use ="required"/> 
+                        </xs:complexType>
+                    </xs:element>
+
+            </xs:sequence>         
+        </xs:complexType>
+    </xs:element> 
+</xs:schema>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hwmotors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="group01.xsd">
+
+
+    <booking bookingID = "16857">
+
+        <vehicle plateNumber = "AA01 HFG">
+            <manufactureName>Toyota</manufactureName>
+            <modelName>Prado</modelName>
+            <hireDate>
+                <startDate>2020-01-01</startDate>
+                <returnDate>2020-01-05</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>London</startLocation>
+                <endLocation>Manchester</endLocation>
+            </location>
+            <hireCategory>Family car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>7</noOfSeats>
+            <fixedHirePrice>120</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "8105557">
+            <name>
+                <firstName>Liam</firstName>
+                <lastName>Phillips</lastName>
+            </name>
+            <dob>1972-09-15</dob>
+            <homeAddress>11 Lawrence, London</homeAddress>
+            <phoneNumber>+44 3394 638897</phoneNumber>
+            <phoneNumber>+44 8782 216616</phoneNumber>
+            <phoneNumber>+44 3073 604026</phoneNumber>
+            <email>liam15@gmail.com</email>
+        </person>
+
+    </booking>
+
+    <booking bookingID = "52390">
+
+        <vehicle plateNumber = "HB04 AVK">
+            <manufactureName>Audi</manufactureName>
+            <modelName>Q5</modelName>
+            <hireDate>
+                <startDate>2019-06-04</startDate>
+                <returnDate>2019-06-07</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Edinburgh</startLocation>
+                <endLocation>Glasgow</endLocation>
+            </location>
+            <hireCategory>Family car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>5</noOfSeats>
+            <fixedHirePrice>250</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "4649128">
+            <name>
+                <firstName>Zara</firstName>
+                <lastName>Miller</lastName>
+            </name>
+            <dob>1983-06-20</dob>
+            <homeAddress>54 Price, Edinburgh</homeAddress>
+            <phoneNumber>+44 1466 912668</phoneNumber>
+            <phoneNumber>+44 9154 903353</phoneNumber>
+            <email>millerzara@gmail.com</email>
+        </person>
+
+    </booking>
+
+    <booking bookingID = "36644">
+
+        <vehicle plateNumber = "BJ12 MAK">
+            <manufactureName>Lamborghini</manufactureName>
+            <modelName>Urus</modelName>
+            <hireDate>
+                <startDate>2020-03-13</startDate>
+                <returnDate>2020-03-24</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Oxford</startLocation>
+                <endLocation>Northampton</endLocation>
+            </location>
+            <hireCategory>Luxury car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>5</noOfSeats>
+            <fixedHirePrice>750</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "5536910">
+            <name>
+                <firstName>Ethan</firstName>
+                <lastName>Hill</lastName>
+            </name>
+            <dob>1991-02-22</dob>
+            <homeAddress>80 Newman, Oxford</homeAddress>
+            <phoneNumber>+44 7563 805422</phoneNumber>
+            <email>ehill22@gmail.com</email>
+        </person>
+        
+    </booking>
+
+    <booking bookingID = "40274">
+
+        <vehicle plateNumber = "WB99 EVJ">
+            <manufactureName>Hyundai</manufactureName>
+            <modelName>i20</modelName>
+            <hireDate>
+                <startDate>2020-02-29</startDate>
+                <returnDate>2020-03-01</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Aberdeen</startLocation>
+                <endLocation>Dundee</endLocation>
+            </location>
+            <hireCategory>Small car</hireCategory>
+            <gearType>Manual</gearType>
+            <noOfSeats>5</noOfSeats>
+            <fixedHirePrice>75</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "6268707">
+            <name>
+                <firstName>April</firstName>
+                <lastName>Holland</lastName>
+            </name>
+            <dob>1989-07-04</dob>
+            <homeAddress>39 Wood, Aberdeen</homeAddress>
+            <phoneNumber>+44 2355 486482</phoneNumber>
+            <phoneNumber>+44 8909 171135</phoneNumber>
+            <phoneNumber>+44 7063 277987</phoneNumber>
+        </person>
+        
+    </booking>
+
+    <booking bookingID = "59111">
+
+        <vehicle plateNumber = "GG56 BCM">
+            <manufactureName>Nissan</manufactureName>
+            <modelName>Quest</modelName>
+            <hireDate>
+                <startDate>2020-02-12</startDate>
+                <returnDate>2020-02-15</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Belfast</startLocation>
+                <endLocation>Londonderry</endLocation>
+            </location>
+            <hireCategory>Minivan</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>8</noOfSeats>
+            <fixedHirePrice>200</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "2128672">
+            <name>
+                <firstName>Stanley</firstName>
+                <lastName>Wells</lastName>
+            </name>
+            <dob>2000-10-05</dob>
+            <homeAddress>46 Dawson, Belfast</homeAddress>
+            <phoneNumber>+44 6573 222026</phoneNumber>
+            <phoneNumber>+44 5844 554188</phoneNumber>
+        </person>
+        
+    </booking>    
+
+    <booking bookingID = "30892">
+
+        <vehicle plateNumber = "WR48 SGK">
+            <manufactureName>Ferrari</manufactureName>
+            <modelName>458 Spider</modelName>
+            <hireDate>
+                <startDate>2020-01-20</startDate>
+                <returnDate>2020-01-24</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>London</startLocation>
+                <endLocation>Liverpool</endLocation>
+            </location>
+            <hireCategory>Sports car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>2</noOfSeats>
+            <fixedHirePrice>850</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "8817710">
+            <name>
+                <firstName>Amara</firstName>
+                <lastName>Reynolds</lastName>
+            </name>
+            <dob>2001-01-01</dob>
+            <homeAddress>05 Pearson, London</homeAddress>
+            <phoneNumber>+44 1782 261559</phoneNumber>
+            <phoneNumber>+44 4398 723425</phoneNumber>
+            <email>write2amara@gmail.com</email>
+        </person>
+        
+    </booking> 
+
+    <booking bookingID = "50891">
+
+        <vehicle plateNumber = "SA34 BJR">
+            <manufactureName>Renault</manufactureName>
+            <modelName>Grand Scenic</modelName>
+            <hireDate>
+                <startDate>2019-12-30</startDate>
+                <returnDate>2020-01-03</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Canterbury</startLocation>
+                <endLocation>Brighton</endLocation>
+            </location>
+            <hireCategory>MVP</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>7</noOfSeats>
+            <fixedHirePrice>385</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "1195454">
+            <name>
+                <firstName>Spencer</firstName>
+                <lastName>Fletcher</lastName>
+            </name>
+            <dob>1999-05-02</dob>
+            <homeAddress>72 Hunter, Canterbury</homeAddress>
+            <phoneNumber>+44 1078 692862</phoneNumber>
+            <phoneNumber>+44 4292 041992</phoneNumber>
+            <phoneNumber>+44 5081 985049</phoneNumber>
+            <email>spencerf1999@gmail.com</email>
+        </person>
+        
+    </booking>
+
+    <booking bookingID = "94640">
+
+        <vehicle plateNumber = "ME72 SFA">
+            <manufactureName>Bentley</manufactureName>
+            <modelName>Mulsanne Speed</modelName>
+            <hireDate>
+                <startDate>2020-03-02</startDate>
+                <returnDate>2020-03-11</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Northampton</startLocation>
+                <endLocation>Southampton</endLocation>
+            </location>
+            <hireCategory>Luxury car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>5</noOfSeats>
+            <fixedHirePrice>702</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "9820974">
+            <name>
+                <firstName>Lana</firstName>
+                <lastName>Roberts</lastName>
+            </name>
+            <dob>1980-04-03</dob>
+            <homeAddress>14 George, Northampton</homeAddress>
+            <phoneNumber>+44 2875 509315</phoneNumber>
+            <email>lana_roberts@gmail.com</email>
+        </person>
+        
+    </booking>  
+
+    <booking bookingID = "06566">
+
+        <vehicle plateNumber = "MS72 IEB">
+            <manufactureName>Volkswagen</manufactureName>
+            <modelName>Touareg</modelName>
+            <hireDate>
+                <startDate>2020-04-03</startDate>
+                <returnDate>2020-04-10</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Newport</startLocation>
+                <endLocation>Cardiff</endLocation>
+            </location>
+            <hireCategory>Family car</hireCategory>
+            <gearType>Automatic</gearType>
+            <noOfSeats>5</noOfSeats>
+            <fixedHirePrice>90</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "2335426">
+            <name>
+                <firstName>Nate</firstName>
+                <lastName>Thompson</lastName>
+            </name>
+            <dob>2000-06-21</dob>
+            <homeAddress>85 Poole, Newport</homeAddress>
+            <phoneNumber>+44 4044 898055</phoneNumber>
+            <phoneNumber>+44 3597 372010</phoneNumber>
+            <phoneNumber>+44 4044 898055</phoneNumber>
+        </person>
+        
+    </booking>       
+
+    <booking bookingID = "87004">
+
+        <vehicle plateNumber = "HM41 JRT">
+            <manufactureName>BMW</manufactureName>
+            <modelName>M2 Competition</modelName>
+            <hireDate>
+                <startDate>2020-03-30</startDate>
+                <returnDate>2020-04-01</returnDate>
+            </hireDate>
+            <location>
+                <startLocation>Ayr</startLocation>
+                <endLocation>Edinburgh</endLocation>
+            </location>
+            <hireCategory>Sports car</hireCategory>
+            <gearType>Manual</gearType>
+            <noOfSeats>4</noOfSeats>
+            <fixedHirePrice>508</fixedHirePrice>
+        </vehicle>
+
+        <person drivingLicenseNumber = "3970307">
+            <name>
+                <firstName>Nia</firstName>
+                <lastName>Stone</lastName>
+            </name>
+            <dob>1986-06-11</dob>
+            <homeAddress>93 Parker, Ayr</homeAddress>
+            <phoneNumber>+44 8177 551885</phoneNumber>
+            <email>nstone116@gmail.com</email>
+        </person>
+        
+    </booking> 
+
+</hwmotors>
+
+<!--REFERENCES-->
+<!--https://www.fantasynamegenerators.com/british-english-names.php-->
